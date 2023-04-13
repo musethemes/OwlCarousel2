@@ -2428,7 +2428,7 @@
 
 		this._core.reset(item.index());
 
-		html = $( '<iframe frameborder="0" allowfullscreen mozallowfullscreen webkitAllowFullScreen ></iframe>' );
+		html = $( '<iframe frameborder="0" allow="autoplay" allowfullscreen mozallowfullscreen webkitAllowFullScreen ></iframe>' );
 		html.attr( 'height', height );
 		html.attr( 'width', width );
 		if (video.type === 'youtube') {
